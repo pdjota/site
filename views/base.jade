@@ -76,6 +76,13 @@ html
               form(action='http://jsconf.us7.list-manage.com/subscribe/post?u=522df5bbc3b97d9e5f5c16fe0&amp;id=7f258c3ebb', method='post')
                 input(type='email', name='EMAIL', placeholder='E-mail address')
                 input(type='submit', value='Subscribe')
+          .row(itemscope itemtype="http://schema.org/Event")
+            .col-md-12
+              h3.event-name(itemprop="name") JS Conf UY
+              div(itemprop="startDate" content="2014-03-14T13:00") When: March 14-15th 2014
+              div(itemprop="location" itemscope itemtype="http://schema.org/Place") Where: Antel Auditorium
+              a(itemprop="offers" href="http://tickets.jsconf.uy/") Tickets available!
+
           .row.last
             .col-md-6
               a(href='http://www.meetup.com/mvd-js/') The Montevideo Javascript Meetup Group
